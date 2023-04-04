@@ -53,6 +53,7 @@ Next you'll just want to start inference
 bash run.sh
 ```
 
+Please note that the *run.sh* script compiles the C source code before starting the chat, so you don't need to compile it preliminary.  
 You should see something like
 
 ```
@@ -60,7 +61,10 @@ AI: How can I help you?
 Human:
 ```
 
-and from here you can just interact with it however you want. Remember though, this model is probably 1,000x smaller than GPT-3, who knows how much smaller than GPT-4, trained for probably thousands of times fewer steps, and is not fine-tuned to be a good chat model. So don't expect much. But it will run.
+and from here you can just interact with it however you want. Remember though, this model is probably 1,000x smaller than GPT-3, who knows how much smaller than GPT-4, trained for probably thousands of times fewer steps, and is not fine-tuned to be a good chat model. So don't expect much. But it will run.  
+
+# Colab
+For the impatient, a notebook to compile the source code and do inference in a Colab VM (free tier, no hardware acceleration, from a terminal within a code cell) is available [here](https://github.com/virtualramblas/python-notebooks-repo/tree/main/Colab/C-GPT).
 
 
 # LICENSE
