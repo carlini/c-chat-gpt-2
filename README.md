@@ -29,16 +29,22 @@ https://nicholas.carlini.com/writing/2023/chat-gpt-2-in-c.html
 
 # Running the code
 
+Make the downloaded shell script and the compiled program executable:
+
+```
+chmod a+x *
+```
+
 First download the GPT-2 neural network
 
 ```
 bash download.sh
 ```
 
-First compile the code with, for example
+Compile the code with, for example
 
 ```
-gcc -O3 c_chat_gpt_2.c
+gcc -O3 -std=c99 -lm -o c_chat_gpt_2 c_chat_gpt_2.c
 ```
 
 If you want to compile with OMP then you should pass -D GOFAST
