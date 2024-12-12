@@ -68,7 +68,6 @@ Human:
 
 and from here you can just interact with it however you want. Remember though, this model is probably 1,000x smaller than GPT-3, who knows how much smaller than GPT-4, trained for probably thousands of times fewer steps, and is not fine-tuned to be a good chat model. So don't expect much. But it will run.
 
-
 # LICENSE
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3.
