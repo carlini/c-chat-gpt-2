@@ -38,13 +38,13 @@ bash download.sh
 First compile the code with, for example
 
 ```
-gcc -O3 c_chat_gpt_2.c
+gcc -O3 c_chat_gpt_2.c -lm
 ```
 
 If you want to compile with OMP then you should pass -D GOFAST
 
 ```
-gcc -O3 -D GOFAST c_chat_gpt_2.c
+gcc -O3 -D GOFAST c_chat_gpt_2.c -lm
 ```
 
 Next you'll just want to start inference
